@@ -147,10 +147,13 @@ void loadFromFile(vector<Book>& books) {
     Book book;
     while (file >> book.bookID) {
         file.ignore(); // Ignore the newline after bookID
+        ///z
+        ///nor khair de
         getline(file, book.title);
         getline(file, book.author);
         file >> book.quantity;
         file.ignore(); // Ignore the newline after quantity
+         //vhvbhkkkhjkhkjh
         books.push_back(book);
     }
 
